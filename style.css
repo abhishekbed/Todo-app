@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 93vh;
+    background-image:
+    linear-gradient(rgba(0,0,0, 0.75),rgba(0,0,0, 0.75)), url('images/bg.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.title{
+    margin-top: 20px;
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.title1{
+    margin-top: 20px;
+    color: skyblue;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.div1 {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.input {
+    margin-top:6px;
+}
+
+input {
+    width: 400px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 8px ;
+    height: 40px;
+    padding: 10px;
+}
+
+.button {
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.data {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.tab td {
+    margin-top: 20px;
+}
